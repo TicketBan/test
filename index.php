@@ -1,17 +1,11 @@
-<?php
-if(isset($_POST["send"])){
-    print_r($_POST)
 
-
-}
-?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Обратная связь</title>
 </head>
-<body>
+<body><?php include_once("main.php"); ?>
     <h2>Forma</h2>
     <form name="feedbeck" action="" method="post">
     	<label>От кого</label><br/>
